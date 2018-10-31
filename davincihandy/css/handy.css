@@ -1,0 +1,78 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Archivo'
+}
+
+
+.centerpage{
+    max-width: 1000px;
+    margin: auto;
+    
+}
+
+.headerimg{
+    max-width: 100%;
+    position: absolute;
+    left: 0;
+    top: 88px;
+    z-index: -1;
+   
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222931;
+    max-width: 950px;
+    margin: auto;
+    z-index: 10;
+    margin-top: 30px;
+}
+
+
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    
+    
+}
+
+li a:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+.navbarmarginleft{
+    margin-left: 20px;
+}
+
+.logolocation{
+    margin-left: 50px;
+}
+
+.banner1{
+    position: absolute;
+}
+
+.banner2{
+    position: absolute;
+    left: 10%;
+
+}
+
+.banner3{
+    position: absolute;
+}
